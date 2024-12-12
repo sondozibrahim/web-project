@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Power - Flower Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Flower Power Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="shop" class="shop-section">
+        <div class="container">
+            <h2>Our Flowers</h2>
+            <div class="flower-card">
+                <img src="roses.jpg" alt="Rose">
+                <h3>Rose</h3>
+                <p>$15.00</p>
+                <button onclick="addToCart('Rose', 15)">Add to Cart</button>
+            </div>
+            <div class="flower-card">
+                <img src="lilis.webp" alt="Lily">
+                <h3>Lily</h3>
+                <p>$12.00</p>
+                <button onclick="addToCart('Lily', 12)">Add to Cart</button>
+            </div>
+            <div class="flower-card">
+                <img src="tulips.jpg" alt="Tulip">
+                <h3>Tulip</h3>
+                <p>$10.00</p>
+                <button onclick="addToCart('Tulip', 10)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: contact@flowerpower.com</p>
+            <p>Phone: 123-456-7890</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Flower Power. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

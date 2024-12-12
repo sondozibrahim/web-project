@@ -1,0 +1,108 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ff80bf;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    font-family:serif;
+    
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+header nav ul li:hover {
+    color: #000000; /* Change color when hovered */
+}
+
+header nav ul li a:hover {
+    color: #000000; /* Change link color on hover */
+}
+
+.shop-section, .contact-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.shop-section h2, .contact-section h2 {
+    color: #ff66b2;
+}
+
+.flower-card {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.flower-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.flower-card h3 {
+    color: #ff66b2;
+}
+
+.flower-card p {
+    color: #777;
+}
+
+.flower-card button {
+    background-color: #ff80bf;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.flower-card button:hover {
+    background-color: #ff66b2;
+}
+
+footer {
+    background-color: #ff80bf;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
